@@ -2,7 +2,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from app.database.startup import build_faiss
+# from app.database.startup import build_faiss
 
 from app.routers.auth import router as auth_router
 from app.routers.resume import router as resume_router
@@ -18,9 +18,10 @@ async def lifespan(app: FastAPI):
 
     print("\n🚀 Application Starting...")
 
-    build_faiss()
+    # Disabled for Render Free Tier
+    # build_faiss()
 
-    print("✅ FAISS Loaded")
+    print("✅ Application Started Successfully")
 
     yield
 
