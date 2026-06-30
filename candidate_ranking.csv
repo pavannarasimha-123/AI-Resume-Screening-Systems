@@ -1,0 +1,9 @@
+resume_id,file_name,score,matched_skills,missing_skills,recommendation
+7,WEBI.pdf,45.12,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
+5,WEBI.pdf,40.62,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
+1,WEBI.pdf,39.9,[],"['aws', 'fastapi', 'git', 'machine learning', 'python']",Needs Review
+2,WEBI.pdf,39.9,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
+3,WEBI.pdf,39.9,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
+4,WEBI.pdf,39.9,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
+6,JAVAI.pdf,39.9,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
+8,MLI.pdf,39.9,"['aws', 'git', 'machine learning', 'python']",['fastapi'],Needs Review
